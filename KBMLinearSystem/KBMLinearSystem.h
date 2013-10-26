@@ -24,5 +24,5 @@
 #pragma mark - Public Methods:
 -(id)init;
 -(void)scaleVectorByFactor:(NSNumber*)factor;
-
+//TODO: Abstract the processes of interacting with linear systems (elementary row operations, etc.)
 @end
