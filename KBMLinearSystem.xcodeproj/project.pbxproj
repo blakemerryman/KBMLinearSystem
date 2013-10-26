@@ -53,6 +53,7 @@
 		46880EED181BFEB500AFA74C /* KBMLinearSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KBMLinearSystemTests-Info.plist"; sourceTree = "<group>"; };
 		46880EEF181BFEB500AFA74C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46880EF1181BFEB500AFA74C /* KBMLinearSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMLinearSystemTests.m; sourceTree = "<group>"; };
+		46880EFB181BFF7E00AFA74C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +121,7 @@
 		46880ED8181BFEB500AFA74C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				46880EFB181BFF7E00AFA74C /* README.txt */,
 				46880ED9181BFEB500AFA74C /* KBMLinearSystem-Prefix.pch */,
 			);
 			name = "Supporting Files";
