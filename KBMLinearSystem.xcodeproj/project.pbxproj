@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46880ED6181BFEB500AFA74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46880ED5181BFEB500AFA74C /* Foundation.framework */; };
+		46880EDB181BFEB500AFA74C /* KBMLinearSystem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46880EDA181BFEB500AFA74C /* KBMLinearSystem.h */; };
+		46880EDD181BFEB500AFA74C /* KBMLinearSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 46880EDC181BFEB500AFA74C /* KBMLinearSystem.m */; };
+		46880EE4181BFEB500AFA74C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46880EE3181BFEB500AFA74C /* XCTest.framework */; };
+		46880EE5181BFEB500AFA74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46880ED5181BFEB500AFA74C /* Foundation.framework */; };
+		46880EE7181BFEB500AFA74C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46880EE6181BFEB500AFA74C /* UIKit.framework */; };
+		46880EEA181BFEB500AFA74C /* libKBMLinearSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46880ED2181BFEB500AFA74C /* libKBMLinearSystem.a */; };
+		46880EF0181BFEB500AFA74C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46880EEE181BFEB500AFA74C /* InfoPlist.strings */; };
+		46880EF2181BFEB500AFA74C /* KBMLinearSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46880EF1181BFEB500AFA74C /* KBMLinearSystemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46880EE8181BFEB500AFA74C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46880ECA181BFEB500AFA74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46880ED1181BFEB500AFA74C;
+			remoteInfo = KBMLinearSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46880ED0181BFEB500AFA74C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				46880EDB181BFEB500AFA74C /* KBMLinearSystem.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46880ED2181BFEB500AFA74C /* libKBMLinearSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKBMLinearSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46880ED5181BFEB500AFA74C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46880ED9181BFEB500AFA74C /* KBMLinearSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KBMLinearSystem-Prefix.pch"; sourceTree = "<group>"; };
+		46880EDA181BFEB500AFA74C /* KBMLinearSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMLinearSystem.h; sourceTree = "<group>"; };
+		46880EDC181BFEB500AFA74C /* KBMLinearSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMLinearSystem.m; sourceTree = "<group>"; };
+		46880EE2181BFEB500AFA74C /* KBMLinearSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBMLinearSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46880EE3181BFEB500AFA74C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		46880EE6181BFEB500AFA74C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		46880EED181BFEB500AFA74C /* KBMLinearSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KBMLinearSystemTests-Info.plist"; sourceTree = "<group>"; };
+		46880EEF181BFEB500AFA74C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46880EF1181BFEB500AFA74C /* KBMLinearSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMLinearSystemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46880ECF181BFEB500AFA74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46880ED6181BFEB500AFA74C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46880EDF181BFEB500AFA74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46880EEA181BFEB500AFA74C /* libKBMLinearSystem.a in Frameworks */,
+				46880EE4181BFEB500AFA74C /* XCTest.framework in Frameworks */,
+				46880EE7181BFEB500AFA74C /* UIKit.framework in Frameworks */,
+				46880EE5181BFEB500AFA74C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46880EC9181BFEB500AFA74C = {
+			isa = PBXGroup;
+			children = (
+				46880ED7181BFEB500AFA74C /* KBMLinearSystem */,
+				46880EEB181BFEB500AFA74C /* KBMLinearSystemTests */,
+				46880ED4181BFEB500AFA74C /* Frameworks */,
+				46880ED3181BFEB500AFA74C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46880ED3181BFEB500AFA74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46880ED2181BFEB500AFA74C /* libKBMLinearSystem.a */,
+				46880EE2181BFEB500AFA74C /* KBMLinearSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46880ED4181BFEB500AFA74C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46880ED5181BFEB500AFA74C /* Foundation.framework */,
+				46880EE3181BFEB500AFA74C /* XCTest.framework */,
+				46880EE6181BFEB500AFA74C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46880ED7181BFEB500AFA74C /* KBMLinearSystem */ = {
+			isa = PBXGroup;
+			children = (
+				46880EDA181BFEB500AFA74C /* KBMLinearSystem.h */,
+				46880EDC181BFEB500AFA74C /* KBMLinearSystem.m */,
+				46880ED8181BFEB500AFA74C /* Supporting Files */,
+			);
+			path = KBMLinearSystem;
+			sourceTree = "<group>";
+		};
+		46880ED8181BFEB500AFA74C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46880ED9181BFEB500AFA74C /* KBMLinearSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46880EEB181BFEB500AFA74C /* KBMLinearSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				46880EF1181BFEB500AFA74C /* KBMLinearSystemTests.m */,
+				46880EEC181BFEB500AFA74C /* Supporting Files */,
+			);
+			path = KBMLinearSystemTests;
+			sourceTree = "<group>";
+		};
+		46880EEC181BFEB500AFA74C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46880EED181BFEB500AFA74C /* KBMLinearSystemTests-Info.plist */,
+				46880EEE181BFEB500AFA74C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46880ED1181BFEB500AFA74C /* KBMLinearSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46880EF5181BFEB500AFA74C /* Build configuration list for PBXNativeTarget "KBMLinearSystem" */;
+			buildPhases = (
+				46880ECE181BFEB500AFA74C /* Sources */,
+				46880ECF181BFEB500AFA74C /* Frameworks */,
+				46880ED0181BFEB500AFA74C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBMLinearSystem;
+			productName = KBMLinearSystem;
+			productReference = 46880ED2181BFEB500AFA74C /* libKBMLinearSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		46880EE1181BFEB500AFA74C /* KBMLinearSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46880EF8181BFEB500AFA74C /* Build configuration list for PBXNativeTarget "KBMLinearSystemTests" */;
+			buildPhases = (
+				46880EDE181BFEB500AFA74C /* Sources */,
+				46880EDF181BFEB500AFA74C /* Frameworks */,
+				46880EE0181BFEB500AFA74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46880EE9181BFEB500AFA74C /* PBXTargetDependency */,
+			);
+			name = KBMLinearSystemTests;
+			productName = KBMLinearSystemTests;
+			productReference = 46880EE2181BFEB500AFA74C /* KBMLinearSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46880ECA181BFEB500AFA74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Blake Merryman";
+			};
+			buildConfigurationList = 46880ECD181BFEB500AFA74C /* Build configuration list for PBXProject "KBMLinearSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46880EC9181BFEB500AFA74C;
+			productRefGroup = 46880ED3181BFEB500AFA74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46880ED1181BFEB500AFA74C /* KBMLinearSystem */,
+				46880EE1181BFEB500AFA74C /* KBMLinearSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46880EE0181BFEB500AFA74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46880EF0181BFEB500AFA74C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46880ECE181BFEB500AFA74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46880EDD181BFEB500AFA74C /* KBMLinearSystem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46880EDE181BFEB500AFA74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46880EF2181BFEB500AFA74C /* KBMLinearSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46880EE9181BFEB500AFA74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46880ED1181BFEB500AFA74C /* KBMLinearSystem */;
+			targetProxy = 46880EE8181BFEB500AFA74C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46880EEE181BFEB500AFA74C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46880EEF181BFEB500AFA74C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46880EF3181BFEB500AFA74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46880EF4181BFEB500AFA74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46880EF6181BFEB500AFA74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KBMLinearSystem.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KBMLinearSystem/KBMLinearSystem-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		46880EF7181BFEB500AFA74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KBMLinearSystem.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KBMLinearSystem/KBMLinearSystem-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46880EF9181BFEB500AFA74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KBMLinearSystem/KBMLinearSystem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KBMLinearSystemTests/KBMLinearSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		46880EFA181BFEB500AFA74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KBMLinearSystem/KBMLinearSystem-Prefix.pch";
+				INFOPLIST_FILE = "KBMLinearSystemTests/KBMLinearSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46880ECD181BFEB500AFA74C /* Build configuration list for PBXProject "KBMLinearSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46880EF3181BFEB500AFA74C /* Debug */,
+				46880EF4181BFEB500AFA74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46880EF5181BFEB500AFA74C /* Build configuration list for PBXNativeTarget "KBMLinearSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46880EF6181BFEB500AFA74C /* Debug */,
+				46880EF7181BFEB500AFA74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46880EF8181BFEB500AFA74C /* Build configuration list for PBXNativeTarget "KBMLinearSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46880EF9181BFEB500AFA74C /* Debug */,
+				46880EFA181BFEB500AFA74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46880ECA181BFEB500AFA74C /* Project object */;
+}
